@@ -1,0 +1,65 @@
+/* work sans font from google font */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap');
+
+* {
+font-family: 'Open Sans', sans-serif;
+}
+
+/* header styles */
+header{
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav > ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+nav li a{
+    text-decoration: none;
+    color: #424242;
+}
+
+.nav-titel{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #131313;
+}
+/* banner styles */
+.banner-content{
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 4rem;
+    color: #131313;
+}
+.banner-description{
+color: #727272;
+}
+.btn-primary{
+    border-radius: 8px;
+    background: #FF900E;
+    color: white;
+    border: none;
+    padding: 15px;
+
+}
+.banner-img{
+    width: 70%;
+    justify-content: center;
+    text-align: center;
+}
