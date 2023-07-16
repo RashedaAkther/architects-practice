@@ -1,65 +1,129 @@
 /* work sans font from google font */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap");
 
 * {
-font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
 }
 
 /* header styles */
-header{
-    background: rgba(255, 144, 14, 0.10);
-    padding: 50px 240px;
+header {
+    background: rgba(255, 144, 14, 0.1);
+    /* padding: 50px 240px; */
 }
 
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 20px;
+    padding-top: 30px;
 }
 
-nav > ul{
+nav>ul {
     display: flex;
 }
-nav li{
+
+nav li {
     list-style: none;
     margin-right: 30px;
     font-weight: 500;
     font-size: 1rem;
 }
-nav li a{
+
+nav li a {
     text-decoration: none;
     color: #424242;
 }
 
-.nav-titel{
+.nav-title {
     font-size: 3rem;
     font-weight: 700;
     color: #131313;
 }
+
 /* banner styles */
-.banner-content{
+
+.banner-content {
     max-width: 800px;
     text-align: center;
     margin: 0 auto;
 }
-.banner-title{
+
+.banner-title {
     font-weight: 700;
     font-size: 4rem;
     color: #131313;
 }
-.banner-description{
-color: #727272;
+
+.banner-description {
+    color: #727272;
 }
-.btn-primary{
+
+.btn-primary {
     border-radius: 8px;
-    background: #FF900E;
+    background: #ff900e;
     color: white;
     border: none;
     padding: 15px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.main-banner {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    /* horizontally center */
+    align-items: center;
+    /* vertically center */
+    margin-top: 60px;
+}
+
+
+.banner-img {
+    margin: 0px auto;
+}
+
+/* feature section styles start */
+.feature {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    gap: 20px;
+}
+
+.feature-img {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+}
+
+.feature-content {
+ 
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 20px;
 
 }
-.banner-img{
-    width: 70%;
-    justify-content: center;
-    text-align: center;
+.feature-heading{
+    font-size: 45px;
+    font-weight: 700;
 }
+.light{
+    color: #727272;
+}
+.highlight{
+    color: #ff900e;
+}
+
+/* .tes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
