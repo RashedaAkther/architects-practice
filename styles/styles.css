@@ -150,6 +150,7 @@ nav li a {
     font-size: 45px;
     font-weight: 700;
 }
+
 .feature-love-content-para{
     font-size: 16px;
     font-weight: 400;
@@ -184,4 +185,37 @@ left: -60px;
     align-items: center;
     position: relative;
     
+}
+/* section facts styles added */
+.facts{
+    padding-top: 30px;
+    display: grid;
+    justify-content: left;
+    padding-left: 150px;
+}
+.fact-content{
+    padding-top: 50px;
+    
+}
+.fact-heading{
+    font-weight: 700;
+    font-size: 35px;
+}
+.fact-para{
+font-size: 12px;
+font-weight: 400;
+color: #727272;
+}
+.img-box{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding-top: 50px;
+}
+.box{
+    padding: 50px;
+    text-align: center;
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+   
 }
