@@ -258,9 +258,42 @@ nav li a {
     display: flex;
     justify-content: space-evenly;
 }
+/* footer styles */
 footer{
     border-radius: 8px;
     background: #FFF4E7;
     text-align: center;
     padding:15px;
+}
+
+/* reponsive styles */
+/* responsive for mobile devices */
+@media screen and (max-width: 576px) {
+    nav{
+        flex-direction: column;
+    }
+        .feature {
+          flex-direction: column;
+        }
+    
+        .feature-img {
+          
+            grid-template-columns: 1fr;
+            
+        }
+}
+/* responsive for tabs */
+@media screen and (min-width: 900px) and (max-width: 900px) {
+nav {
+        flex-direction: column;
+    }
+         .feature {
+             flex-direction: column;
+         }
+    
+         .feature-img {
+    
+             grid-template-columns: 2fr;
+    
+         }
 }
