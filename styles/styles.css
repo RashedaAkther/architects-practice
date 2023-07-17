@@ -281,6 +281,16 @@ footer{
             grid-template-columns: 1fr;
             
         }
+        .feature-love {
+                     grid-template-columns: 1fr;
+        }
+        .years{
+            width: 100px;
+            height: 100px;
+            font-size: 16px;
+            font-weight: 400;
+           
+        }
 }
 /* responsive for tabs */
 @media screen and (min-width: 900px) and (max-width: 900px) {
@@ -296,4 +306,14 @@ nav {
              grid-template-columns: 2fr;
     
          }
+         .feature-love {
+            grid-template-columns: 1fr;
+         }
+        .years {
+            width: 100px;
+            height: 100px;
+            font-size: 16px;
+            font-weight: 400;
+        
+        }
 }
